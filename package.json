@@ -1,0 +1,27 @@
+{
+    "name": "Vue Core Demo",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "module": "lib/guide-mini-vue.esm.js",
+    "main": "lib/guide-mini-vue.cjs.js",
+    "scripts": {
+        "test": "jest",
+        "build": "rollup -c rollup.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.26.10",
+        "@babel/preset-env": "^7.26.9",
+        "@babel/preset-typescript": "^7.27.0",
+        "@rollup/plugin-typescript": "^12.1.2",
+        "@types/jest": "^29.5.14",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "rollup": "^4.40.2",
+        "tslib": "^2.8.1",
+        "typescript": "^5.8.3"
+    }
+}
